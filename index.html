@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>Amazon Clone</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="./styles/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="flex">
+            <nav class="flex">
+                <a href="#1" class="nav-item">
+                    <div class="flex header-logo">
+                        <span class="amazon-logo sprite"></span>
+                        <span class="amazon-domain-label">.in</span>
+                        <span class="prime-logo sprite"></span>
+                    </div>
+                </a>
+                <a href="#1" class="nav-item">
+                    <div class="flex location">
+                        <span class="loc-logo sprite"></span>
+                        <div class="flex-col">
+                            <span class="small-line">Deliver to Sabariraja</span>
+                            <span class="bold-line">Kattumann... 608301</span>
+                        </div>
+                    </div>
+                </a>
+                <form class="header-search flex fill" role="search">
+                    <div class="flex search-select">
+                        <div class="search-select-alias">
+                            <div class="flex">
+                                <span class="search-category">All</span>
+                                <span class="down-arrow"></span>
+                            </div>
+                        </div>
+                        <label class="vis-hide" for="searchselect">Select category for search</label>
+                        <select class="header-dropdown" id="searchselect">
+                            <option selected="selected" value="search-alias=aps">All Categories</option>
+                            <option value="search-alias=alexa-skills">Alexa Skills</option>
+                            <option value="search-alias=amazon-devices">Amazon Devices</option>
+                            <option value="search-alias=fashion">Amazon Fashion</option>
+                        </select>
+                    </div>
+                    <div class="flex fill">
+                        <label class="vis-hide" for="searchamazon">Search Amazon.in</label>
+                        <input class="search-input" id="searchamazon" type="text" placeholder="Search Amazon.in"></input>
+                    </div>
+                    <div class="flex search-button">
+                        <span class="search-icon sprite"></span>
+                        <label class="vis-hide"><input type="submit" value="GO"></input></label>
+                    </div>
+                </form>
+                <a href="#1" class="nav-item header-lang">
+                    <div class="flex-col">
+                        <span class="small-line"></span>
+                        <div class="bold-line flex">
+                            <span class="flag-icon flag-sprite"></span>
+                            <span class="lang-label bold-line">EN</span>
+                            <div class="down-arrow-flyout">
+                                <span class="down-arrow"></span>
+                                <div class="flyout"></div>
+                            </div>
+                        </div>    
+
+                    </div>
+                </a>
+                <a href="#1" class="nav-item header-account">
+                    <div class="flex-col">
+                        <span class="small-line">Hello, srikanth</span>
+                        <div class="bold-line flex">
+                           <span>Account & Lists</span>
+                            <div class="flex">
+                                <span class="down-arrow"></span>
+                                <div class="flyout"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#1" class="nav-item header-order">
+                    <div class="flex-col">
+                        <span class="small-line">Returns</span>
+                        <span class="bold-line flex">& Orders</span>
+                    </div>
+                </a>
+                <a href="#1" class="nav-item header-cart">
+                    <div class="flex">
+                        <span class="cart-icon sprite"></span>
+                        <span class="cart-count-label">0</span>
+                        <div class="flex-col">
+                            <span class="small-line"></span>
+                            <span class="bold-line flex">Cart</span>
+                        </div>
+                    </div>
+                </a>
+            </nav>
+        </header>
+        <nav class="main-nav flex">
+            <div class="main-nav-left">
+                    <a href="#all">
+                        <span class="hm-icon sprite"></span>
+                        <span class="bold">All</span>
+                    </a>
+                    <a href="#1">Item#1 sjkdfs ajdsfnsik</a><a href="#2">Item#2</a><a href="#3">Item#3</a><a href="#4">Item#4</a><a href="#5">Item#5</a><a href="#6">Item#6</a><a href="#7">Item#7</a><a href="#8">Item#8</a><a href="#9">Item#9</a><a href="#10">Item#10</a><a href="#11">Item#11</a><a href="#12">Item#12</a><a href="#13">Item#13</a><a href="#14">Item#14</a><a href="#15">Item#15</a><a href="#16">Item#16</a><a href="#17">Item#17</a><a href="#18">Item#18</a><a href="#19">Item#19</a><a href="#20">Item#20</a><a href="#21">Item#21</a><a href="#22">Item#22</a><a href="#23">Item#23</a><a href="#24">Item#24</a><a href="#25">Item#25</a><a href="#26">Item#26</a><a href="#27">Item#27</a><a href="#28">Item#28</a><a href="#29">Item#29</a><a href="#30">Item#30</a>
+            </div>
+            <a href="#" class="main-nav-right">
+                <img src="./images/new-launch.jpg"></img>
+            </a>
+        </nav>
+        <main>
+
+            <div class="main-cont">
+                <div class="ads-carousel">
+                    <div class="carousel">
+                        <ul class="carousel-items">
+                            <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                            <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                            <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                            <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                        </ul>
+                        <div class="left arrow-cont disabled" data-arrow="+100%">
+                            <span class="arrow-sprite"></span>
+                        </div>
+                        <div class="right arrow-cont" data-arrow="-100%">
+                            <span class="arrow-sprite"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ads-grid">
+                    <div class="flex-col grid-item-box">
+                        <h2>Explore more</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item1.jpg" alt="item-1">
+                                </div>
+                                <div class="item-details">
+                                    <div class="item-name">Item Name</div>
+                                    <div>3 Viewed</div>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item2.jpg" alt="item-2">
+                                </div>
+                                <div class="item-details">
+                                    <div class="item-name">Item Name</div>
+                                    <div>3 Viewed</div>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item3.jpg" alt="item-3">
+                                </div>
+                                <div class="item-details">
+                                    <div class="item-name">Item Name</div>
+                                    <div>3 Viewed</div>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item4.jpg" alt="item-4">
+                                </div>
+                                <div class="item-details">
+                                    <div class="item-name">Item Name</div>
+                                    <div>3 Viewed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Keep shopping for</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-5.jpg" alt="light-5">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-6.jpg" alt="light-6">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-7.jpg" alt="light-7">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-8.jpg" alt="light-8">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Up to 60% off | Start your fitness journey</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/item-11.jpg" alt="item-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Pick up where you left off</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/light-11.jpg" alt="light-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="grid-item-video">
+                        <div class="bg-blur-image"></div>
+                        <div class="bg-border-black"></div>
+
+                        <img src="./images/prime-video.jpg" alt="prime-video">
+                        <div class="video-title">
+                            <h2>Prime Video: Recommended for you</h2>
+                            <p>Fleabag Season 1</p>
+                        </div>
+                        <div class="video-footer">
+                            <a href="#">Start watching on Prime Video</a>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Explore more</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item1.jpg" alt="item-1">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item2.jpg" alt="item-2">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item3.jpg" alt="item-3">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item4.jpg" alt="item-4">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Keep shopping for</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-5.jpg" alt="light-5">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-6.jpg" alt="light-6">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-7.jpg" alt="light-7">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-8.jpg" alt="light-8">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-grid">
+                    <div class="todays-carousel grid-item-carousel">
+                        <h2 class="carousel-title">Today's Deals</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li><a href="#"><img src="./images/light-1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-2.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-3.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-4.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-5.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-6.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-7.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-8.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-9.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-10.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-11.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="./images/light-12.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="more-carousel grid-item-carousel">
+                        <h2 class="carousel-title">More items to consider</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="related-carousel grid-item-carousel">
+                        <h2 class="carousel-title">Inspired by your Wish List</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Explore more</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item1.jpg" alt="item-1">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item2.jpg" alt="item-2">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item3.jpg" alt="item-3">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item4.jpg" alt="item-4">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Keep shopping for</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-5.jpg" alt="light-5">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-6.jpg" alt="light-6">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-7.jpg" alt="light-7">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-8.jpg" alt="light-8">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Up to 60% off | Start your fitness journey</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/item-11.jpg" alt="item-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Pick up where you left off</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/light-11.jpg" alt="light-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="inspired-carousel grid-item-carousel">
+                        <h2 class="carousel-title">Related to items you've viewed</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inspired2-carousel grid-item-carousel">
+                        <h2 class="carousel-title">More items to consider</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Explore more</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item1.jpg" alt="item-1">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item2.jpg" alt="item-2">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item3.jpg" alt="item-3">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item4.jpg" alt="item-4">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Keep shopping for</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-5.jpg" alt="light-5">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-6.jpg" alt="light-6">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-7.jpg" alt="light-7">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-8.jpg" alt="light-8">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Up to 60% off | Start your fitness journey</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/item-11.jpg" alt="item-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Pick up where you left off</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/light-11.jpg" alt="light-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="frequent-carousel grid-item-carousel">
+                        <h2>Amazon Live | Watch, Chat & Shop LIVE</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frequent2-carousel grid-item-carousel">
+                        <h2>Best Sellers in Books</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Explore more</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item1.jpg" alt="item-1">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item2.jpg" alt="item-2">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item3.jpg" alt="item-3">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/item4.jpg" alt="item-4">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Keep shopping for</h2>
+                        <div class="grid-4">
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-5.jpg" alt="light-5">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-6.jpg" alt="light-6">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-7.jpg" alt="light-7">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                            <div class="flex-col">
+                                <div class="item-image">
+                                    <img src="./images/light-8.jpg" alt="light-8">
+                                </div>
+                                <div class="item-details">
+                                    <span class="item-name"></span>
+                                    <span>3 Viewed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Up to 60% off | Start your fitness journey</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/item-11.jpg" alt="item-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="flex-col grid-item-box">
+                        <h2>Pick up where you left off</h2>
+                        <div class="grid-1-image">
+                            <img src="./images/light-11.jpg" alt="light-11">
+                        </div>
+                        <div class="reltive-link">
+                            <a href="#">see more</a>
+                        </div>
+                    </div>
+                    <div class="offer-carousel grid-item-carousel">
+                        <h2 class="carousel-title">Recommended for you from Made for Amazon</h2>
+                        <div class="carousel">
+                            <ul class="carousel-items">
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel1.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel2.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel3.jpg" alt=""></a></li>
+                                <li class="carousel-item"><a href="#"><img src="./images/carousel4.jpg" alt=""></a></li>
+                            </ul>
+                            <div class="left arrow-cont disabled" data-arrow="+0%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="right arrow-cont" data-arrow="-100%">
+                                <span class="arrow-sprite"></span>
+                            </div>
+                            <div class="scrollbar">
+                                <div class="scrollbar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paged-sections">
+                    <div>
+                        <div class="page-cont">
+                            <div class="flex title">
+                                <h2>Buy in other parts of the store</h2>
+                                <div class="page-number">Page 1 of 2</div>
+                            </div>
+                            <div class="flex">
+                                <div class="left arrow-cont">
+                                    <div class="arrow-inner-cont">
+                                        <span class="sx-arrow-sprite"></span>
+                                    </div>
+                                </div>
+                                <div class="other-store wrap">
+                                    <ul class="flex">
+                                        <!-- li*10>a[href="#"]>(div.product-image>img[src="./images/light-$.jpg"][alt="light-$"])+div.product-name{prouct name $ prouct nameprouct name $ prouct name  prouct name $ prouct name}+(div.rating[data-rating="$"]>span.rating-star-sprite+span.rating-count{1000$})+div.product-cost{300$}+div{Free Delivery}+div.delivery-date{Friday, September $} -->
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-1.jpg" alt="lap-1"></div>
+                                                <div class="product-name">prouct name 1 prouct nameprouct name 1 prouct name  prouct name 1 prouct name</div>
+                                                <div class="rating" data-rating="1"><span class="rating-star-sprite"></span><span class="rating-count">10001</span></div>
+                                                <div class="product-cost">3001</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 1</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-2.jpg" alt="lap-2"></div>
+                                                <div class="product-name">prouct name 2 prouct nameprouct name 2 prouct name  prouct name 2 prouct name</div>
+                                                <div class="rating" data-rating="2"><span class="rating-star-sprite"></span><span class="rating-count">10002</span></div>
+                                                <div class="product-cost">3002</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 2</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-3.jpg" alt="lap-3"></div>
+                                                <div class="product-name">prouct name 3 prouct nameprouct name 3 prouct name  prouct name 3 prouct name</div>
+                                                <div class="rating" data-rating="3"><span class="rating-star-sprite"></span><span class="rating-count">10003</span></div>
+                                                <div class="product-cost">3003</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 3</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-4.jpg" alt="lap-4"></div>
+                                                <div class="product-name">prouct name 4 prouct nameprouct name 4 prouct name  prouct name 4 prouct name</div>
+                                                <div class="rating" data-rating="4"><span class="rating-star-sprite"></span><span class="rating-count">10004</span></div>
+                                                <div class="product-cost">3004</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 4</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-5.jpg" alt="lap-5"></div>
+                                                <div class="product-name">prouct name 5 prouct nameprouct name 5 prouct name  prouct name 5 prouct name</div>
+                                                <div class="rating" data-rating="5"><span class="rating-star-sprite"></span><span class="rating-count">10005</span></div>
+                                                <div class="product-cost">3005</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 5</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-6.jpg" alt="lap-6"></div>
+                                                <div class="product-name">prouct name 6 prouct nameprouct name 6 prouct name  prouct name 6 prouct name</div>
+                                                <div class="rating" data-rating="6"><span class="rating-star-sprite"></span><span class="rating-count">10006</span></div>
+                                                <div class="product-cost">3006</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 6</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-7.jpg" alt="lap-7"></div>
+                                                <div class="product-name">prouct name 7 prouct nameprouct name 7 prouct name  prouct name 7 prouct name</div>
+                                                <div class="rating" data-rating="7"><span class="rating-star-sprite"></span><span class="rating-count">10007</span></div>
+                                                <div class="product-cost">3007</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 7</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-8.jpg" alt="lap-8"></div>
+                                                <div class="product-name">prouct name 8 prouct nameprouct name 8 prouct name  prouct name 8 prouct name</div>
+                                                <div class="rating" data-rating="8"><span class="rating-star-sprite"></span><span class="rating-count">10008</span></div>
+                                                <div class="product-cost">3008</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 8</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-9.jpg" alt="lap-9"></div>
+                                                <div class="product-name">prouct name 9 prouct nameprouct name 9 prouct name  prouct name 9 prouct name</div>
+                                                <div class="rating" data-rating="9"><span class="rating-star-sprite"></span><span class="rating-count">10009</span></div>
+                                                <div class="product-cost">3009</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 9</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-10.jpg" alt="lap-10"></div>
+                                                <div class="product-name">prouct name 10 prouct nameprouct name 10 prouct name  prouct name 10 prouct name</div>
+                                                <div class="rating" data-rating="10"><span class="rating-star-sprite"></span><span class="rating-count">100010</span></div>
+                                                <div class="product-cost">30010</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 10</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-11.jpg" alt="lap-11"></div>
+                                                <div class="product-name">prouct name 11 prouct nameprouct name 11 prouct name  prouct name 11 prouct name</div>
+                                                <div class="rating" data-rating="11"><span class="rating-star-sprite"></span><span class="rating-count">100011</span></div>
+                                                <div class="product-cost">30011</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 11</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-12.jpg" alt="lap-12"></div>
+                                                <div class="product-name">prouct name 12 prouct nameprouct name 12 prouct name  prouct name 12 prouct name</div>
+                                                <div class="rating" data-rating="12"><span class="rating-star-sprite"></span><span class="rating-count">100012</span></div>
+                                                <div class="product-cost">30012</div>
+                                                <div>Free Delivery</div>
+                                                <div class="delivery-date">Friday, September 12</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="right arrow-cont">
+                                    <div class="arrow-inner-cont">
+                                        <span class="sx-arrow-sprite"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex title">
+                                <h2>Your browsing history</h2>
+                                <span class="header-link">View or edit your browsing history</span>
+                                <span class="page-number">Page 1 of 2</span>
+                            </div>
+                            <div class="flex">
+                                <div class="left arrow-cont">
+                                    <div class="arrow-inner-cont">
+                                        <span class="sx-arrow-sprite"></span>
+                                    </div>
+                                </div>
+                                <div class="history wrap">
+                                    <ul class="flex">
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-1.jpg" alt="light-1"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-2.jpg" alt="light-2"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-3.jpg" alt="light-3"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-4.jpg" alt="light-4"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-5.jpg" alt="light-5"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-6.jpg" alt="light-6"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-7.jpg" alt="light-7"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-8.jpg" alt="light-8"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-9.jpg" alt="light-9"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-10.jpg" alt="light-10"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-11.jpg" alt="light-11"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/light-12.jpg" alt="light-12"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-1.jpg" alt="lap-1"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-2.jpg" alt="lap-2"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-3.jpg" alt="lap-3"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="product-image"><img src="./images/lap-4.jpg" alt="lap-4"></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="right arrow-cont">
+                                    <div class="arrow-inner-cont">
+                                        <span class="sx-arrow-sprite"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="back-to-top">Back to top</div>
+            </div>
+        </main>
+
+
+        <footer>
+            <div class="footer-container flex-col">
+                <div class="extra-links flex">
+                    <div>
+                        <h2>Get to Know Us</h2>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="#">Amazon Science</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Connect with Us</h2>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Make money with Us</h2>
+                        <ul>
+                            <li><a href="#">Sell on Amazon</a></li>
+                            <li><a href="#">Sell under Amazon Accelerator</a></li>
+                            <li><a href="#">Protect and Build your brand</a></li>
+                            <li><a href="#">Sell under Amazon Accelerator</a></li>
+                            <li><a href="#">Protect and Build your brand</a></li>
+                            <li><a href="#">Sell under Amazon Accelerator</a></li>
+                            <li><a href="#">Protect and Build your brand</a></li>
+                            <li><a href="#">Sell under Amazon Accelerator</a></li>
+                            <li><a href="#">Protect and Build your brand</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Let Us Help You</h2>
+                        <ul>
+                            <li><a href="#">COVID-19 and Amazon</a></li>
+                            <li><a href="#">your Account</a></li>
+                            <li><a href="#">Return Centre</a></li>
+                            <li><a href="#">100% purchase protection</a></li>
+                            <li><a href="#">Sell under Amazon Accelerator</a></li>
+                            <li><a href="#">Protect and Build your brand</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="sub-footer">
+                    <div class="flex logos">
+                        <span class="amazon-logo sprite"></span>
+                        <div class="lang-selector flex">
+                            <div class="globe flag-sprite"></div>
+                            <div>English</div>
+                            <div class="double-arrow flag-sprite"></div>
+                        </div>
+                    </div>
+                    <ul class="country-list flex">
+                        <li><a href="#">country1</a></li>
+                        <li><a href="#">country2</a></li>
+                        <li><a href="#">country3</a></li>
+                        <li><a href="#">country4</a></li>
+                        <li><a href="#">country5</a></li>
+                        <li><a href="#">country6</a></li>
+                        <li><a href="#">country7</a></li>
+                        <li><a href="#">country8</a></li>
+                        <li><a href="#">country9</a></li>
+                        <li><a href="#">country10</a></li>
+                        <li><a href="#">country11</a></li>
+                        <li><a href="#">country12</a></li>
+                        <li><a href="#">country13</a></li>
+                        <li><a href="#">country14</a></li>
+                        <li><a href="#">country15</a></li>
+                        <li><a href="#">country16</a></li>
+                        <li><a href="#">country17</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="grid-links">
+                    <ul>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>AbeBooks</h3>
+                                <span>Books,art</span><span>& collectibiles</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>Amazon Web Services</h3>
+                                <span>scalable Cloud</span><span>Computing Services</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>Audible</h3>
+                                <span>Downloads</span><span>Audio Books</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>DpReview</h3>
+                                <span>Digital</span><span>Photography</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>ImDb</h3>
+                                <span>Movies, TV</span><span>& Celebraties</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>Amazon Business</h3>
+                                <span>Everything For</span><span>Your Business</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>Prime Now</h3>
+                                <span>2-Hour Delivery</span><span>on Everyday Items</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>Amazon Business</h3>
+                                <span>Everything For</span><span>Your Business</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex-col">
+                                <h3>Amazon Prime Music</h3>
+                                <span>100 million songs, ad-free</span><span>Over 15 million podcast episodes</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyright flex">
+                    <div class="flex-col">
+                        <ul class="flex">
+                            <li><a href="#">Conditions of Use & Sale</a></li>
+                            <li><a href="#">Privacy Notice</a></li>
+                            <li><a href="#">Interest-Based Ads</a></li>
+                        </ul>
+                        <div>© 1996-2023, Amazon.com, Inc. or its affiliates</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            [...document.getElementsByClassName("arrow-cont")].forEach(ele=>{
+                ele.onclick = (e)=>{
+                    let currentValue = e.currentTarget.parentElement.children[0].style.left;
+                    if(!currentValue)
+                        currentValue = 0;
+                    let offset = e.currentTarget.getAttribute("data-arrow").toString().replace("%","").replace("px","").trim();
+                    let unit = (e.currentTarget.getAttribute("data-arrow").at(-1) == "%")?"%":"px";
+                    let newvalue = parseInt(currentValue)+parseInt(offset);
+                    let style = getComputedStyle(e.currentTarget.parentElement.children[0]);
+                    if((parseInt(style.width) + parseInt(style.left)) <= 0 && offset < 0){
+                        newvalue=0;
+                    } 
+                    if(parseInt(newvalue) > 0 ){
+                        newvalue = -300;
+                    }
+                    e.currentTarget.parentElement.children[0].style.left= newvalue+""+unit;
+                };
+            })
+        </script>
+    </body>
+</html>
